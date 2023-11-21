@@ -10701,15 +10701,20 @@ header.masthead .background-image {
 header.masthead a.btn {
     position: absolute;
     bottom: 10rem;
-    left: 139px;
+    left: 114px;
     z-index: 2;
     width: 20rem;
 }
 
 /* Media Query for screens smaller than 768px (adjust as needed) */
 @media (max-width: 768px) {
+    header.masthead {
+        height: 82vh;
+
+    }
     header.masthead .background-image {
         height: 50%;
+        position: unset;
     }
 
 }
